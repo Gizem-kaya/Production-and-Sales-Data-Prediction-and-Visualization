@@ -77,6 +77,9 @@ Rampa and Satış Deposu were put in the y-axis in separate charts.
 
 #### SATIS: 
 
+![Uploading 1.png…]()
+
+
 #### STOK: 
 
 ## 2.4.3. End of The Project
