@@ -1,4 +1,4 @@
-# R-Studio
+# R-Studio Project
 
 Representation of production and sales changes according to years, months and locations and Prediction future sales and production values.
 
@@ -73,16 +73,13 @@ the functionality of the graphics has increased.
 Rampa and Satış Deposu were put in the y-axis in separate charts.
 
 
-* Examples are shown below 2015 STOK and SATIS chart:
+* Examples are shown below 2015 SATIS chart:
 
 #### SATIS: 
 
 ![1](https://user-images.githubusercontent.com/32525636/61541226-f0bf9c80-aa47-11e9-98f2-ca722c6ed8f6.png)
 
-
-
 ![2](https://user-images.githubusercontent.com/32525636/61541232-f4532380-aa47-11e9-8be2-17f008994d36.png)
-
 
 
 ## 2.4.3. End of The Project
@@ -105,7 +102,6 @@ model.
 
 - For creating a decision tree, tree() and plot() functions are used and
 that base table was obtained:
-
 ![3](https://user-images.githubusercontent.com/32525636/61541427-4e53e900-aa48-11e9-84c1-c371463eb77a.png)
 
 - With text() function the finished decision tree is obtained: 
