@@ -106,20 +106,18 @@ model.
 - For creating a decision tree, tree() and plot() functions are used and
 that base table was obtained:
 
-
 ![3](https://user-images.githubusercontent.com/32525636/61541427-4e53e900-aa48-11e9-84c1-c371463eb77a.png)
-
 
 - With text() function the finished decision tree is obtained: 
 
-
-![4](https://user-images.githubusercontent.com/32525636/61541432-501dac80-aa48-11e9-8760-273995f0acff.png)
-
+![4](https://user-images.githubusercontent.com/32525636/61541769-ebaf1d00-aa48-11e9-80c5-5bd6ddf584e9.png)
 
 - An estimation operation was performed using the predict function using
 this tree, and at the end of this processing, a comparison of the actual
 values and the predicted values was made in a dataframe named
 "table.comp":
+
+![5](https://user-images.githubusercontent.com/32525636/61541771-ee117700-aa48-11e9-80ed-331c34aee33f.png)
 
 - The values did not appear very similar. Because there were not many
 classes of data, although it was in the titanic project. We only had
@@ -143,4 +141,9 @@ sales quantities and amounts and prints them side by side.
 
 
 Bol_tab(1,2015)
+
+![6](https://user-images.githubusercontent.com/32525636/61541775-ef42a400-aa48-11e9-80f5-b17d1d5b06a8.png)
+
 Bol_tab(2,2016) # Adapazarı is another name of Sakarya
+
+![7](https://user-images.githubusercontent.com/32525636/61541781-f10c6780-aa48-11e9-98b1-c489bcc61a89.png)
