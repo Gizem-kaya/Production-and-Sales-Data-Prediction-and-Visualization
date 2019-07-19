@@ -84,7 +84,6 @@ Rampa and Satış Deposu were put in the y-axis in separate charts.
 ![2](https://user-images.githubusercontent.com/32525636/61541232-f4532380-aa47-11e9-8be2-17f008994d36.png)
 
 
-#### STOK: 
 
 ## 2.4.3. End of The Project
 
@@ -107,7 +106,15 @@ model.
 - For creating a decision tree, tree() and plot() functions are used and
 that base table was obtained:
 
+
+![3](https://user-images.githubusercontent.com/32525636/61541427-4e53e900-aa48-11e9-84c1-c371463eb77a.png)
+
+
 - With text() function the finished decision tree is obtained: 
+
+
+![4](https://user-images.githubusercontent.com/32525636/61541432-501dac80-aa48-11e9-8760-273995f0acff.png)
+
 
 - An estimation operation was performed using the predict function using
 this tree, and at the end of this processing, a comparison of the actual
