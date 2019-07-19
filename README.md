@@ -77,7 +77,11 @@ Rampa and Satış Deposu were put in the y-axis in separate charts.
 
 #### SATIS: 
 
-![Uploading 1.png…]()
+![1](https://user-images.githubusercontent.com/32525636/61541226-f0bf9c80-aa47-11e9-98f2-ca722c6ed8f6.png)
+
+
+
+![2](https://user-images.githubusercontent.com/32525636/61541232-f4532380-aa47-11e9-8be2-17f008994d36.png)
 
 
 #### STOK: 
