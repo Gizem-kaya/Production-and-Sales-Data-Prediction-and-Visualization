@@ -1,71 +1,69 @@
 # R-Studio
 Representation of production and sales changes according to years, months and locations and Prediction future sales and production values.
-2.4.1. Problem Description
+## 2.4.1. Problem Description
  First, two big excel files named SATIS (sales) and STOK (stock) were
 given. The data sets in this file were expected to create a new SATIS and
 STOCK file for a week. After the week these excel files finished. Then Mr.
 Mustafa Taş and Oktay Sönmez (engineers in charge) presented the project.
 SATIS and STOK files were too big and too hard to understand generally. The
 work was to give a meaning to the data. Which means to create graphics by 
-13
 the years and by the cities, to make forecasts about sales and stock in the
 coming years.
- 2.4.2. Analysis and Work
+
+## 2.4.2. Analysis and Work
  In order to approach the problem of giving meaning to the data, the
 analysis was divided into several parts. First of all, there was a need for a plan
 and an algorithm. After a little research and time, this algorithm has formed
 step by step:
- Check where are we with getwd() and go in the file which is in with
+- Check where are we with getwd() and go in the file which is in with
 setwd("E:/…..”)
- Read SATIS.xlsx, STOK.xlsx, URUN.xlsx, BOLGE.xlsx files with
+- Read SATIS.xlsx, STOK.xlsx, URUN.xlsx, BOLGE.xlsx files with
 “openxlsx “ package
- Then for visualization it was necessary to perform data conversion
+- Then for visualization it was necessary to perform data conversion
 on SATIS and STOK data.
- By “ggplot” package a few graphics have been created to show
+- By “ggplot” package a few graphics have been created to show
 Area, product and amount relationship according to years (Initial /
 Rplot1.png, Rplot2.png, Rplot3.png, Rplot4.png).
- The last graph is organized as an example of a rating chart.
- Then, for each year, for “Makta”, the percentages of the products
+- The last graph is organized as an example of a rating chart.
+- Then, for each year, for “Makta”, the percentages of the products
 were compared according to region (2015 Yıllara Göre Makta.png,
 2016 Yıllara Göre Makta.png, 2017 Yıllara Göre Makta.png, 2018
 Yıllara Göre Makta.png)
- The same process was done for “Rampa” and “Satış Deposu”
+- The same process was done for “Rampa” and “Satış Deposu”
 (2015 Yıllara Göre Rampa.png, 2016 Yıllara Göre Rampa.png,
 2017 Yıllara Göre Rampa.png, 2018 Yıllara Göre Rampa.png;
 2015 Yıllara Göre Satis Deposu.png, 2016 Yıllara Göre Satis 
-14
 Deposu.png, 2017 Yıllara Göre Satis Deposu.png, 2018 Yıllara
 Göre Satis Deposu.png).
- As you can see on charts and tables, ID's are used instead of
+- As you can see on charts and tables, ID's are used instead of
 product and region names. The reason why the ID’s were put in the
 database was ID’s need smaller space than names. But we have
 been able to put names in graphics instead of ID's.
- To do this, SATIS – BOLGE – URUN and STOK – BOLGE – URUN
+- To do this, SATIS – BOLGE – URUN and STOK – BOLGE – URUN
 tables must be joined (solved with SQL logic). So that regions and
 product data can be easily used together in graphics.
- For using them together, “inner_join” and “merge” functions used
+- For using them together, “inner_join” and “merge” functions used
 from “dplyr” package.
- After preparing the data, SATIS and STOK data divided and
+- After preparing the data, SATIS and STOK data divided and
 separated according to years (with “subset.data.frame()”function).
 Because for each year; sales and stints, ramps, sales depots,
 quantity and amount ratios are requested by region.
- After all this has been done, it is necessary to give meaning to the
+- After all this has been done, it is necessary to give meaning to the
 collected data.
- Before plotting, it is essential to change the structure of the data.
+- Before plotting, it is essential to change the structure of the data.
 Because the numbers do not appear as integers when the data in
 the chart are not changed.
- For STOK table, regions were put in the x-axis; quantity and
+- For STOK table, regions were put in the x-axis; quantity and
 amount were put in the y-axis in separate charts, thus in all the
 regions within a year, it can be seen the whole STOK table in one
 chart for a year and these graphics are now easier to interpret and
 the functionality of the graphics has increased.
- Similarly, for SATIS table, regions were put in the x-axis; Makta,
+- Similarly, for SATIS table, regions were put in the x-axis; Makta,
 Rampa and Satış Deposu were put in the y-axis in separate charts.
- All the prepared graphics are attached. 
-15
-Examples are shown below 2015 STOK and SATIS chart:
-SATIS: 
-16
+- All the prepared graphics are attached. 
+  * Examples are shown below 2015 STOK and SATIS chart:
+### SATIS: 
+
 STOK: 
 17
 2.4.3. End of The Project
