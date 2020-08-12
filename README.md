@@ -1,10 +1,10 @@
 # R-Studio Project
 
-Representation of production and sales changes according to years, months and locations and Prediction future sales and production values.
+ Representation of production and sales changes according to years, months and locations and Prediction future sales and production values.
 
 ## 1. Problem Description
 
- First, two big excel files named SATIS (sales) and STOK (stock) were
+  First, two big excel files named SATIS (sales) and STOK (stock) were
 given. The data sets in this file were expected to create a new SATIS and
 STOCK file for a week. After the week these excel files finished. Then Mr.
 Mustafa Taş and Oktay Sönmez (engineers in charge) presented the project.
@@ -15,7 +15,7 @@ coming years.
 
 ## 2. Analysis and Work
 
- In order to approach the problem of giving meaning to the data, the
+  In order to approach the problem of giving meaning to the data, the
 analysis was divided into several parts. First of all, there was a need for a plan
 and an algorithm. After a little research and time, this algorithm has formed
 step by step:
