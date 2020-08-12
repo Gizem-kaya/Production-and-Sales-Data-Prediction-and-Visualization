@@ -2,7 +2,7 @@
 
 Representation of production and sales changes according to years, months and locations and Prediction future sales and production values.
 
-## 2.4.1. Problem Description
+## 1. Problem Description
 
  First, two big excel files named SATIS (sales) and STOK (stock) were
 given. The data sets in this file were expected to create a new SATIS and
@@ -13,7 +13,7 @@ work was to give a meaning to the data. Which means to create graphics by
 the years and by the cities, to make forecasts about sales and stock in the
 coming years.
 
-## 2.4.2. Analysis and Work
+## 2. Analysis and Work
 
  In order to approach the problem of giving meaning to the data, the
 analysis was divided into several parts. First of all, there was a need for a plan
@@ -82,7 +82,7 @@ Rampa and Satış Deposu were put in the y-axis in separate charts.
 ![2](https://user-images.githubusercontent.com/32525636/61541232-f4532380-aa47-11e9-8be2-17f008994d36.png)
 
 
-## 2.4.3. End of The Project
+## 3. End of The Project
 
 - The last remaining process after estimating the required graphics is the
 estimation process.
